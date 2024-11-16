@@ -14,7 +14,7 @@ body {
 .question {
     margin-bottom: 1.5em;
     height: auto; /* Deixe o conteúdo expandir conforme necessário */
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: 20px;
     text-align: justify; 
 
