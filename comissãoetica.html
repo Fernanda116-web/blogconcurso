@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <title>Aula 07 - CSS (Menus de Navegação)</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="menulateral">
+        <ul>
+            <!-- Primeiro item de menu -->
+            <li>
+                <a href="index.html">Meu blog</a>
+            </li>
+
+            <!-- Menu "Lei 8112" com submenu expansível -->
+            <li>
+                <input type="checkbox" id="menu1" class="menu-checkbox" >
+                <label for="menu1"><a  href="lei8112.html">Lei 8112</a></label>
+                <ul>
+                    <li><a href="penalidades.html">Penalidades</a></li>
+                    <li><a href="provimento.html">Provimento</a></li>
+                    <li><a href="proibicoes.html">Proibições</a></li>
+                </ul>
+            </li>
+
+            <!-- Menu "Lei Improbidade" com submenu expansível -->
+            <li>
+                <input type="checkbox" id="menu2" class="menu-checkbox">
+                <label for="menu2"><a href="leiimprobidade.html">Lei Improbidade</a></label>
+                <ul>
+                    <li><a href="penalidadess.html">Penalidades</a></li>
+                    <li><a href="principios.html">Princípios</a></li>
+                    <li><a href="prescricao.html">Prescrição</a></li>
+                </ul>
+            </li>
+            
+            <!-- Menu "etica correios" com submenu expansível -->
+            <li>
+                <input type="checkbox" id="menu3" class="menu-checkbox" checked>
+                <label for="menu3"><a  href="eticacorreios.html">Ética correios</a></label>
+                <ul>
+                    <li><a href="abrangencia.html">Abragência </a></li>
+                    <li><a href="objetivos.html">Objetivo </a></li>
+                    <li><a href="principios2.html">Principios </a></li>
+                    <li><a href="compempreg.html">Compromissos Empregados </a></li>
+                    <li><a href="CompGoveSocied.html">Compromissos Correios-Governo e sociedade </a></li>
+                    <li><a href="compClientes.html">Compromissos correios- clientes </a></li>
+                    <li><a href="compConcorrentes.html">Compromissos correios- concorrentes </a></li>
+                    <li><a href="compcorreios.html">Compromissos Correios-empregados </a></li>
+                    <li><a class="active" href="comissãoetica.html">Comissão ética</a></li>
+                    <li><a href="dispGerais.html">Disposições Gerais </a></li>
+                    <li><a href="quizzcorreios.html">Quiz correios</a></li>
+                </ul>
+            </li>
+
+            
+        </ul>
+    </nav>
+
+    <div style="margin-left:16%; padding:1px 16px; height:1000px;">
+        <h1>Comissão de ética e penalidades</h1>
+        <iframe width=100% height=100% src='https://embed.coggle.it/diagram/Zz5VnbZ2NpfZkswK/f7f7d476f7b89803354b9288e21e18688ce85eb1fa1737f8667ae88130bac49c' frameborder='0' allowfullscreen></iframe></body>
+</html>
