@@ -36,6 +36,9 @@ nav.menulateral {
     height: 100%;
     background-color: white;
     padding-top: 20px;
+    overflow-y: auto; /* Adiciona barra de rolagem vertical */
+    scrollbar-width: thin; /* (Opcional) Para navegadores que suportam, reduz a largura da barra */
+    text-align: left;
     
 }
 
